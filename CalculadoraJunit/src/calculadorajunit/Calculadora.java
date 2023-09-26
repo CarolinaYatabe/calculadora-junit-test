@@ -79,11 +79,11 @@ public class Calculadora {
     }
     
     public int dividirDoisNegativos(int a, int b){
-        return a / b;
+        return -(a) / -(b);
     }
     
     public int dividirUmNegativo(int a, int b){
-        return a / b;
+        return -(a) / b;
     }
     
     public int dividirUmZero(int a, int b){
